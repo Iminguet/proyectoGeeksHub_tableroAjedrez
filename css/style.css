@@ -10,7 +10,7 @@ main {
   margin: 0 auto;
 }
 .tablero {
-  border: 2px solid black;
+  border: 10px solid black;
 }
 .linea {
   display: flex;
