@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+.tablero {
+  border: 2px solid black;
+}
+.linea {
+  display: flex;
+}
+
+.casilla {
+  width: 70px;
+  height: 70px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.linea_inpar .casilla_inpar {
+  background-color: burlywood;
+}
+
+.linea_inpar .casilla_par {
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.linea_par .casilla_inpar {
+  background-color: brown;
+}
+.linea_par .casilla_par {
+  background-color: burlywood;
+}
+
+.negras {
+  color: black;
+}
+
+.blancas {
+  color: white;
+}
